@@ -1,0 +1,692 @@
+/* GOOGLE FONTS*/
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Righteous&family=Roboto+Mono:wght@300;400;600&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap");
+
+/* LINKING _VARIABLES.CSS FILE  */
+@import url(./partials/_variables.css);
+
+/* IMPORT GLOBAL STYLLINGS */
+
+@import "/CSS/partials/_global.css";
+
+/* CENTRALIZED NAVIGATION MENU */
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 0%;
+    transform: translatex(-70%);
+}
+
+/* START NAVIGATION */
+
+
+
+.ut{
+    padding-left: 20%;
+}
+
+
+
+
+.header_area .main-menu .nav-item .nav-link{
+    font:normal 500 20px/2px var(--roboto);
+    text-transform: capitalize;
+    padding: 1.9rem;
+    color:var(--primary-color);
+    
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* END NAVIGATION */
+
+/* BANNER AREA */
+
+
+
+
+.overlay .site-title{
+    position:relative;
+    margin-top: 6%;
+    margin-left: 20%;
+    padding: auto;
+    text-align: left;
+    z-index:1;
+    color: aliceblue;
+    
+}
+
+
+.overlay .site-title .title-text:hover{
+    font-family: var(--roboto);
+    -webkit-text-stroke: 2px;
+    font-size: 8vh;
+    color: lightsteelblue;
+}
+
+
+.site-main .site-banner .embed-responsive-item-vid{
+    position:absolute;
+    left: 0%;
+    width: 100%;
+    z-index:-1;
+    
+
+    
+
+}
+
+.overlay .site-title{
+    position:relative;
+    margin-top: 6%;
+    margin-left: 20%;
+    padding: auto;
+    text-align: left;
+    z-index:1;
+    color: aliceblue;
+    
+    
+}
+
+.overlay .site-button{
+    margin-left: 0%;
+}
+
+
+
+
+/* END BANNER AREA */
+
+/* START ABOUT AREA */
+
+.site-main .about-area{
+    padding-top: 16.6rem;
+}
+
+.site-main .about-area .about-title{
+    padding-left: 3rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font:normal bold 49px/60px var(--roboto);
+    letter-spacing: 21px;
+
+}
+.site-main .about-area .about-title .paragraph >p{
+    padding: .4rem 0rem;
+    
+}
+
+p.para{
+    color: var(--text-color);
+    font: normal 600 26px/35px var(--dancing);
+    letter-spacing: 4px;
+    word-spacing: 8px;
+    
+}
+p.para1{
+    color:darkslategray;
+    font:normal 300 20px/25px var(--roboto);
+
+}
+
+
+p.para2{
+    color:darkslategray;
+    font:normal 300 20px/25px var(--righteous);
+    word-spacing: 10px;
+    letter-spacing: 3px;
+}
+
+/* END ABOUT AREA */
+
+
+/*  START EDUCATION AREA  */
+
+.site-main .education-area{
+    padding-top: 4rem;
+}
+
+
+
+
+
+.column3{
+    float: left;
+    width: 33.33%;
+    padding: 1vh 1vh;
+}
+
+.site-main .education-area .academic{
+    text-align: center;
+    border: 0px;
+    font:normal 400 85px/25px var(--dancing);
+    padding-bottom: 0.7rem;
+    color: #19CFD2;
+    letter-spacing: 2px;
+    transition: 1.0s ease-in-out;
+}
+.site-main .education-area .academic:hover{
+    transform: scale(1.05);
+    letter-spacing: 30px;
+    transition: 1.0s ease-in-out;
+}
+
+
+
+.site-main .education-area .column3 .overlay1{
+    top:0%;
+    position: absolute;
+    opacity: 0;
+    background-color: whitesmoke;
+    float: left;
+    width: 33.33%;
+    padding: 1vh 1vh;
+    box-shadow: var(--box-shadow);
+    background-color: white;
+    width: 0%;
+
+}
+
+.site-main .education-area .column3:hover .overlay1{
+    opacity: 1;
+    overflow: hidden;
+    width: 33.33%;
+    bottom: 0;
+    transition: 0.7s ease;
+    bottom: 0;
+  
+}
+
+
+
+/*  END EDUCATION AREA */  
+
+
+/* START COURSE and skills arae */
+.site-main .course-skills {
+    background-image: url(/Images/course\ \(2\).jpg);
+
+    padding-bottom: 10vh;
+    
+    min-height: 100vh;
+    padding-top: 12vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* START COURSE_AREA */
+
+.site-main .course-area .first-row .col-lg-3{
+    display:inline-flex;
+    justify-content:center;
+    
+}
+
+.site-main .course-area .first-row .col-lg-3 > .single-course{
+    border: 3.6px transparent;
+    text-align: center;
+    padding: 1rem 1rem;
+    margin: 0.5rem 0.5rem;
+    cursor: pointer;
+    transition: transform .4s ease;
+    
+    border-radius: 20px;
+    
+}
+.site-main .course-area .first-row .col-lg-3 > .single-course > img{
+    width: 50%;
+
+}
+
+.site-main .course-area .first-row .col-lg-3 > .single-course:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+    transform:rotate3d(2, -1, -1, -0.2turn);
+    
+}
+
+
+.site-main .course-area .course-title{
+    padding-left: 3rem;
+}
+.site-main .course-area .course-title h2 > span{
+    display: block;
+    
+    font:normal bold 49px/120px var(--righteous);
+    letter-spacing: 21px;
+    color:white;
+    
+}
+.site-main .course-area .course-title :hover{
+    transform: scale(1.05);
+    font-size: .8in;
+    letter-spacing: 14px;
+    transform:rotateX(0deg);
+    transform: rotateY(-15deg);
+    transform: rotateZ(-5deg);
+}
+.site-main .course-area .course-title h2 > span:hover{
+    text-shadow: 30px black;
+    color: #b312db ;
+    transform:rotateX(0deg);
+    transform: rotateY(-10deg);
+    transform: rotateZ(20deg);
+    text-align: center;
+}
+
+
+
+
+/* END COURSE AREA */
+
+
+/* START SKILLS AREA */
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+
+
+.site-main .skills-area .skills-title{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.site-main .skills-area .skills-title .skills-head{
+    display: flexbox;
+    align-items: center;
+    font:normal bold 75px/120px var(--roboto);
+    letter-spacing: 19px;
+    color: transparent;
+    color: #ffffff;
+	background-color: black;
+	-webkit-text-stroke: 0.2px wheat;
+    box-shadow: var(--box-shadow);
+    transition: 1s;
+}
+
+.site-main .skills-area .skills-title .skills-head:hover{
+    transform: scale(0.95);
+    letter-spacing: 45px;
+    box-shadow: 10ch;
+    transition: 1s;
+}
+
+
+.site-main .skills-area .skills-list .indi{
+    padding: 1rem 1rem;
+}
+.site-main .skills-area .skills-list .row{
+    padding-bottom: 0rem;
+    margin:auto;
+}
+
+.site-main .skills-area .skills-list .skills{
+
+    border-radius: 1rem;
+    border: 12px solid aliceblue;
+    box-shadow:var(--box-shadow);
+    background-color:aliceblue;
+    
+}
+
+.site-main .skills-area .skills-list .skills:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: 1;
+    
+}
+
+.site-main .skills-area .skills-list .skills .skills-img{
+    border-radius: 1rem;
+    background-color:thistle;
+}
+
+
+.site-main .skills-area .skills-list .skills .card-title{
+    padding-bottom: 0.8rem;
+    border-bottom:3px solid grey;
+
+}
+.site-main .skills-area .skills-list .skills .card-body .card-text{
+    padding-top: .2rem;
+}
+.site-main .skills-area .skills-list .skills .card-body .checked{
+    color: orange;
+}
+
+/* END SKILLS AREA */
+/* END Course And Skills Area */
+
+
+/*  START PROJECT AREA  */
+@keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  @keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  .site-main .project-area .rocket-img .rocket:hover{
+    position: relative;
+  animation-name: rotate;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;  
+  }
+
+
+.site-main .project-area{
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+
+}
+
+.site-main .project-area .project-title h1 > span{
+    color: #19CFD2;color: #23338b;
+    font:normal bold 75px/120px var(--righteous);
+    letter-spacing: 13px;
+    text-shadow: 5px 5px #FF0000;
+}
+.site-main .project-area .project-title h1:hover{
+    position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;  
+  
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font:normal 500 16px/50px var(--righteous);
+    text-transform: uppercase;
+    
+}
+
+.site-main .project-area .button-group button + button{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.site-main .project-area .button-group{
+    padding-bottom: 1rem;
+}
+
+.site-main .project-area .grid .our-project > .title h4{
+    font: normal 700 25px/25px var(--roboto);
+}
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter:brightness(1.4) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+.site-main .project-area .button-group .active, .button:hover{
+    border-bottom: 6px solid tomato;
+}
+
+/*  END PROJECT AREA  */
+
+
+/*  Start Achievement section  */
+
+.site-main .achievements-area{
+    background-image: url(/Images/Platforms/pexels-johannes-plenio-2259233.jpg);
+
+    padding-bottom: 10vh;
+    
+    min-height: 30vh;
+    padding-top: 4vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.site-main .achievements-area .achievement-title .title-h1{
+    padding: 1rem 0rem;
+    font: normal bold 90px/90px var(--righteous);
+    letter-spacing: 42px;
+    transition: 3s;
+    
+}
+.site-main .achievements-area .achievement-title .title-h1:hover{
+    letter-spacing: 15px;
+    transition: 1.2s;
+}
+
+.site-main .achievements-area .achievements{
+    background-color: ghostwhite;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 1rem;
+    filter: brightness(1.03);
+}
+.site-main .achievements-area .achievements .achievements-img{
+    padding:2rem ;
+}
+
+.site-main .achievements-area .achievements .about-achievement{
+    padding-top: 2rem;
+}
+
+
+
+.site-main .achievements-area .achievements .about-achievement h4{
+    font:normal 500 25px/20px var(--roboto);
+    
+}
+
+
+.site-main .achievements-area .achievements .about-achievement p{
+    font: normal 300 20px,18px var(--roboto);
+}
+.site-main .achievements-area .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0rem 1rem;
+}
+.site-main .achievements-area .owl-carousel .owl-dots .owl-dot span{
+    width: 20px;
+    height: 16px;
+}
+
+.site-main .achievements-area .owl-carousel .owl-dots .owl-dot.active span{
+    background: blue;
+    width: 20px;
+    height: 20px;
+}
+
+/*  End Achievement section  */
+
+
+
+/* footer area */
+
+
+footer{
+    
+    width: 100%;
+    position: absolute;
+    /*bottom: 0; */
+    background: linear-gradient(to right,#00093c,#2d0b00);
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 390px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+
+.footer-area .row{
+    width: 85%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer-area .column{
+    flex-basis: 25%;
+    padding:10px;
+}
+.footer-area .column:nth-child(2), .column:nth-child(3){
+    flex-basis: 15%;
+}
+
+.footer-area .logo{
+    width: 80px;
+    margin-bottom: 30px;
+}
+
+.footer-area .column h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.footer-area .email-id{
+    width: fit-content;
+    border-bottom: 2px solid #ccc;
+    margin: 20px 1px;
+}
+
+.footer-area ul li{
+    list-style: none;
+    margin-bottom: 12px;
+
+}
+.footer-area ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.footer-area ul li a:hover{
+    color:blueviolet;
+    font-size: 15px;
+}
+
+.footer-area form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+.footer-area form .uil{
+    font-size: 18px;
+    margin-right: 10px;
+
+}
+.footer-area form input{
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+.footer-area form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+.footer-area form button .uil{
+    font-size: 26px;
+    color: #ccc;
+
+}
+.social-icons .uil{
+    width: 70px;
+    height: 70px;
+    border-radius: 0%;
+    line-height: 40px;
+    font-size: 38px;
+    color: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.social-icons .uil:hover{
+    color: blueviolet;
+    filter: brightness(1.1);
+    font-size: 40px;
+}
+
+.footer-area hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+.footer-area .copyright{
+    text-align: center;
+
+}
+.footer-area .underline{
+    margin-top: 15px;
+    width: 100%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+}
+.footer-area .underline span{
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation:moving 2s linear infinite;
+}
+@keyframes moving{
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
